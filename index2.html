@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+    <title>Calculateur IMC</title>
+</head>
+
+<body>
+    <div class="login-box">
+        <h2>Calculez votre imc</h2>
+        <form action="">
+            <div class="mesure">
+                <input type="number" id="taille" min="0" max="240" required>
+                <label for="taille">Taille</label>
+            </div>
+            <div class="mesure">
+                <input type="number" id="poids" min="0" max="180" required>
+                <label for="poids">Poids</label>
+            </div>
+            <a href="#calculer">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span> Calculer
+            </a>
+            <div id="result"></div>
+        </form>
+    </div>
+    <script src="/main2.js"></script>
+</body>
+
+</html>
