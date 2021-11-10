@@ -9,6 +9,10 @@ body {
     background: linear-gradient(#141e30, #243b55);
 }
 
+#result {
+    color: white;
+}
+
 .login-box {
     position: absolute;
     top: 50%;
