@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -13,25 +13,32 @@
 </head>
 
 <body>
-    <div class="login-box">
-        <h2>Calculez votre imc</h2>
-        <form action="">
-            <div class="mesure">
-                <input type="number" id="taille" min="0" max="240" required>
-                <label for="taille">Taille</label>
-            </div>
-            <div class="mesure">
-                <input type="number" id="poids" min="0" max="180" required>
-                <label for="poids">Poids</label>
-            </div>
-            <div id="result"></div>
-            <a href="#" id="calculer">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span> Calculer
-            </a>
-        </form>
+    <div id="container">
+        <div class="login-box">
+            <h2>Calculez votre imc</h2>
+            <form action="">
+                <div class="mesure">
+                    <input type="number" id="taille" min="0" max="240" required>
+                    <label for="taille">Taille</label>
+                </div>
+                <div class="mesure">
+                    <input type="number" id="poids" min="0" max="180" required>
+                    <label for="poids">Poids</label>
+                </div>
+                <div id="result"></div>
+                <a href="#" id="calculer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span> Calculer
+                </a>
+            </form>
+        </div>
+        <div id="pictures">
+            <img src="imc-picture2.png" alt="picture of imc indicator">
+            <img src="navigation.png" alt="picture of arrow" id="arrow" style="transform: rotate(-90deg);">
+        </div>
+
     </div>
     <script src="/main2.js"></script>
 </body>

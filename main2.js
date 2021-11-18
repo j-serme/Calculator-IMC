@@ -18,4 +18,5 @@ function calculer() {
 
 document.addEventListener("DOMContentLoaded", function () {
   document.querySelector("#calculer").addEventListener("click", calculer);
+  document.querySelector("#img").style.transform = "rotate(90deg)";
 });
